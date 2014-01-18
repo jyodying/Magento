@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <modules>
+    <WhittallAndShon_ModifyPrice>
+      <version>2.1.11</version>
+    </WhittallAndShon_ModifyPrice>
+  </modules>
+  <frontend>
+    <events>
+      <checkout_cart_product_add_after>
+        <observers>
+          <whittallandshon_modifyprice_model_observer>
+            <type>singleton</type>
+            <class>WhittallAndShon_ModifyPrice_Model_Observer</class>
+            <method>modifyPrice</method>
+          </whittallandshon_modifyprice_model_observer>
+        </observers>
+      </checkout_cart_product_add_after>
+      <!--<checkout_cart_update_items_after>
+        <observers>
+          <update_items_after_observer>
+            <class>ModifyPrice/observer</class>
+            <method>modifyPrice1</method>
+          </update_items_after_observer>
+        </observers>
+      </checkout_cart_update_items_after>	
+      <sales_quote_add_item>
+        <observers>
+          <quote_add_item_observer>
+            <class>ModifyPrice/observer</class>
+            <method>updatePrice</method>
+          </quote_add_item_observer>
+        </observers>
+      </sales_quote_add_item>-->	    
+    </events>
+  </frontend>
+</config>

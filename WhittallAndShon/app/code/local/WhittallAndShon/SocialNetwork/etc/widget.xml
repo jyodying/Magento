@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<widgets>
+    <socialnetwork_twitter type="socialnetwork/twitter" translate="name description" module="socialnetwork">
+        <name>Bookmark: Twitter</name>
+        <description type="desc">Adds a simple "Tweet This!" link</description>
+    </socialnetwork_twitter>
+    <socialnetwork_digg type="socialnetwork/digg" translate="name description" module="socialnetwork">
+        <name>Bookmark: Digg</name>
+        <description type="desc">Adds a simple "You Digg?" link</description>
+    </socialnetwork_digg>
+    <socialnetwork_delicious type="socialnetwork/delicious" translate="name description" module="socialnetwork">
+        <name>Bookmark: Delicious</name>
+        <description type="desc">Adds a simple delicious.com bookmarking link</description>
+    </socialnetwork_delicious>
+</widgets>
